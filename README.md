@@ -4,6 +4,7 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 
 ## Contents
 * [Network Devices](./contents/network_devices/)
+* [Interfaces and Cables](./contents/interfaces_and_cables/)
 
 ## Network node icons
 The following are the icons we'll see implemented to reference network nodes in diagrams
