@@ -41,7 +41,7 @@ Open Systems Interconnection model
 
 * segments and reassembles data for communications between end hosts
 * breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if errors occur
-* provides host-to-host communication (end to end, process to process, etc)
+* **provides host-to-host communication** (end to end, process to process, etc) :fire:
 * **adds a L4 header to the data from L7/L6/L5** forming a **`segment`** :fire:
 
 ![](../../docs/osi_l4_segment.png)
@@ -83,3 +83,15 @@ Open Systems Interconnection model
 
 ## OSI funny acronyms
 ![](../../docs/osi_acronyms.png)
+
+
+## TCP/IP
+
+* used in the internet and other networks today
+* known as TCP/IP becuase those are two of the foundational protocols in the  suite
+* developed by the US Department of Defense through DARPA
+* similar to OSI model but with fewer layers
+
+![](../../docs/tcp_ip.png)
+
+![](../../docs/tcp_ip_data_flow.png)
