@@ -9,9 +9,9 @@ Device that provides functions or services for clients
 ## Client
 Device that accesses a service made availably by a server
 
-![](../../docs/client_sv_1.png)
+![](docs/client_sv_1.png)
 
-![](../../docs/client_sv_2.png)
+![](docs/client_sv_2.png)
 
 ## Switches
 You typically don't connect end-hosts or PCs directly to each other, you aggregate the connections to a device called a "switch".
@@ -40,4 +40,4 @@ Although router can provide some basic security features, what we should use to 
 These are software applications that filter traffic entering and exiting a host machine (like a PC).
 Even in a network with a hardware firewall each PC should include a software firewall for an extra protection layer
 
-![](../../docs/switches_routers_and_firewalls.png)
+![](docs/switches_routers_and_firewalls.png)
