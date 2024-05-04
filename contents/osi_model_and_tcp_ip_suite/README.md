@@ -12,7 +12,7 @@ Open Systems Interconnection model
 * Functions are divided into 7 layers
 * These layers work together to make the network work
 
-![](../../docs/osi_model.png)
+![](docs/osi_model.png)
 
 
 ### 7 - Application
@@ -44,7 +44,7 @@ Open Systems Interconnection model
 * **provides host-to-host communication** (end to end, process to process, etc) :fire:
 * **adds a L4 header to the data from L7/L6/L5** forming a **`segment`** :fire:
 
-![](../../docs/osi_l4_segment.png)
+![](docs/osi_l4_segment.png)
 
 
 ### 3 - Network
@@ -55,7 +55,7 @@ Open Systems Interconnection model
 * **routers operate at Layer 3**
 * **adds a L3 header to the segment from L4** forming a **`packet`** :fire:
 
-![](../../docs/osi_l3_packet.png)
+![](docs/osi_l3_packet.png)
 
 
 ### 2 - Data Link
@@ -67,7 +67,7 @@ Open Systems Interconnection model
 * **switches operate at layer 2**
 * **adds l2 header AND trailer to packet from L3** forming a **`frame`** :fire:
 
-![](../../docs/osi_l2_frame.png)
+![](docs/osi_l2_frame.png)
 
 
 ### 1 - Physical
@@ -78,11 +78,11 @@ Open Systems Interconnection model
 
 
 ### PDUs (Protocol Data Units)
-![](../../docs/pdu.png)
+![](docs/pdu.png)
 
 
 ## OSI funny acronyms
-![](../../docs/osi_acronyms.png)
+![](docs/osi_acronyms.png)
 
 
 ## TCP/IP
@@ -92,6 +92,6 @@ Open Systems Interconnection model
 * developed by the US Department of Defense through DARPA
 * similar to OSI model but with fewer layers
 
-![](../../docs/tcp_ip.png)
+![](docs/tcp_ip.png)
 
-![](../../docs/tcp_ip_data_flow.png)
+![](docs/tcp_ip_data_flow.png)
