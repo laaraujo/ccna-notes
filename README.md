@@ -6,6 +6,7 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 * [Network Devices](./contents/network_devices/)
 * [Interfaces and Cables](./contents/interfaces_and_cables/)
 * [OSI model and TCP/IP suite](./contents/osi_model_and_tcp_ip_suite/)
+* [Intro to Cisco IOS CLI](./contents/intro_to_cisco_cli/)
 
 ## Network node icons
 The following are the icons we'll see implemented to reference network nodes in diagrams
