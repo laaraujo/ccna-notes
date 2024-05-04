@@ -14,3 +14,4 @@ The following are the icons we'll see implemented to reference network nodes in 
 
 ## Sources
 * [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
+* [Cisco CCNA Study Materials](https://learningnetwork.cisco.com/s/article/200-301-ccna-study-materials)
