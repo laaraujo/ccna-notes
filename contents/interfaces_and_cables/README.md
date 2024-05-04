@@ -11,7 +11,7 @@ Agreed upon system of communicating between network devices.
 
 ### Speed
 
-![](../../docs/bits_n_bytes.png)
+![](docs/bits_n_bytes.png)
 
 ## Ethernet
 
@@ -22,7 +22,7 @@ Collection of network protocols/standards that fit in RJ-45 ports (`RJ` = "Regis
 * defined in the IEEE 802.3 standard in 1983
 * IEEE = Institute of Electrical and Electronics Engineers
 
-![](../../docs/copper_ethernet_standards.png)
+![](docs/copper_ethernet_standards.png)
 Where `BASE` refers to baseband signaling (outside of CCNA scope) and `T` refers to `twisted pair`
 
 ## UTP Cables
@@ -34,7 +34,7 @@ Type of copper **cables** used in ethernet standards.
 * `8 pins`, perfect for the number of wires
 * **Not all ethernet cables use all 8 wires**
 
-![](../../docs/utp_cables_used_wires.png)
+![](docs/utp_cables_used_wires.png)
 
 ## Copper UTP Cables
 
@@ -42,7 +42,7 @@ Type of copper **cables** used in ethernet standards.
 
 * `Full-Duplex` transmission: both connected devices can receive and transmit data at the same time
 
-![](../../docs/pins_chart_10base-t_100base-t.png)
+![](docs/pins_chart_10base-t_100base-t.png)
 
 #### Straight-through cable connections
 
@@ -54,7 +54,7 @@ Type of copper **cables** used in ethernet standards.
 6 --- 6
 ```
 
-![](../../docs/straight-through_pc_and_switch.png)
+![](docs/straight-through_pc_and_switch.png)
 
 #### Crossover cable connections
 
@@ -66,7 +66,7 @@ Type of copper **cables** used in ethernet standards.
 6 --- 2
 ```
 
-![](../../docs/crossover_router_and_router.png)
+![](docs/crossover_router_and_router.png)
 
 #### **Auto MDI-X** :fire: :fire: :fire:
 Truth is that most modern network devices don't need to worry about straight-through or crossover cables because of Auto MDI-X.
@@ -94,13 +94,13 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 
 ## Fiber-optic UTP Cables
 
-![](../../docs/sfp_transceiver.png)
+![](docs/sfp_transceiver.png)
 
 ### Connections
 
-![](../../docs/fiber_cable.png)
+![](docs/fiber_cable.png)
 
-![](../../docs/fiber_optic_layers.png)
+![](docs/fiber_optic_layers.png)
 * `1` : Fiber glass core, where light is transmitted
 * `2` : Cladding that reflects light
 * `3` : Protective buffer
@@ -113,7 +113,7 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 * Allows longer cables than UTP and multimode
 * More expensive than    multimode fiber (**laser-based sfp transmitters**)
 
-![](../../docs/single-mode_fiber.png)
+![](docs/single-mode_fiber.png)
 
 #### Multimode
 
@@ -123,10 +123,10 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 * Shorter cables than single-mode fiber
 * Cheaper than single-mode fiber (**led-based sfp transmitters**)
 
-![](../../docs/multimode_fiber.png)
+![](docs/multimode_fiber.png)
 
 ## Fiber-optic Cable standards
-![](../../docs/fiber_optic_standards.png)
+![](docs/fiber_optic_standards.png)
 
 
 ## UTP vs Fiber-optic Cabling
