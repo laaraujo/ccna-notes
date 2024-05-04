@@ -9,7 +9,8 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 * [Intro to Cisco IOS CLI](./contents/intro_to_cisco_cli/)
 
 ## Network node icons
-The following are the icons we'll see implemented to reference network nodes in diagrams
+The following are the icons use in some diagrams from [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ) I used in this repo:
+
 ![icon_glossary](/docs/node_icons.png)
 
 ## Sources
