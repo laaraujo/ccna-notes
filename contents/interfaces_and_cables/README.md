@@ -81,7 +81,7 @@ Type of copper **cables** used in ethernet standards.
 
 ![](docs/crossover_router_and_router.png)
 
-#### **Auto MDI-X** :fire: :fire: :fire:
+#### **Auto MDI-X** 🔥
 Truth is that most modern network devices don't need to worry about straight-through or crossover cables because of Auto MDI-X.
 
 It allows deviced to automatically detect which pins their neighbor is transmiting data on, and then adjust which pins to use to transmit/receive data.

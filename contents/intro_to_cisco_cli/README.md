@@ -180,7 +180,7 @@ Router(config)#
 
 ### User EXEC Mode
 
-* the name of the device is followed by a `>` in this mode :fire:
+* the name of the device is followed by a `>` in this mode 🔥
 * very limited
 * can't make changes to the config
 * also called `user mode`
@@ -216,7 +216,7 @@ Router#
 ```
 
 * complete access to view device's config, restart the device, etc
-* **cannot change config**, only time on the device, save the config file, etc :fire:
+* **cannot change config**, only time on the device, save the config file, etc 🔥
 
 #### Available commands
 ```log
@@ -374,13 +374,13 @@ There are 3 ways to save the configuration
 
 ## Password encryption
 
-Password are stored in `plain text by default`. :fire: :fire: :fire:
+Password are stored in `plain text by default`. 🔥🔥🔥
 
 ### `service password-encryption` command
 
 This commannd will use the `7` encryption algorithm for passwords, it is a proprietary encryption algorithm from Cisco.
 
-* `7` is **NOT** a secure encryption algorithm :fire: :fire: :fire:
+* `7` is **NOT** a secure encryption algorithm 🔥🔥🔥
 
 ```logs
 Router(config)#service password-encryption

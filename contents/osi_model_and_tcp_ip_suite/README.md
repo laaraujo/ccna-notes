@@ -48,8 +48,8 @@ Open Systems Interconnection model
 
 * segments and reassembles data for communications between end hosts
 * breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if errors occur
-* **provides host-to-host communication** (end to end, process to process, etc) :fire:
-* **adds a L4 header to the data from L7/L6/L5** forming a **`segment`** :fire:
+* **provides host-to-host communication** (end to end, process to process, etc) 🔥
+* **adds a L4 header to the data from L7/L6/L5** forming a **`segment`** 🔥
 
 ![](docs/osi_l4_segment.png)
 
@@ -60,7 +60,7 @@ Open Systems Interconnection model
 * provides logical addressing (IP addresses)
 * controls operations of the subnet, deciding physical path the data takes
 * **routers operate at Layer 3**
-* **adds a L3 header to the segment from L4** forming a **`packet`** :fire:
+* **adds a L3 header to the segment from L4** forming a **`packet`** 🔥
 
 ![](docs/osi_l3_packet.png)
 
@@ -72,7 +72,7 @@ Open Systems Interconnection model
 * detects and possibly corrects Physical Layer errors
 * uses its own L2 addressing, separate from Layer 3 addressing
 * **switches operate at layer 2**
-* **adds l2 header AND trailer to packet from L3** forming a **`frame`** :fire:
+* **adds l2 header AND trailer to packet from L3** forming a **`frame`** 🔥
 
 ![](docs/osi_l2_frame.png)
 
