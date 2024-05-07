@@ -1,9 +1,21 @@
-# Cisco IOS (CLI)
+# Intro to Cisco CLI
 
-## What is it and what is it used for ?
+
+## Table of contents
+* [Cisco IOS](#cisco-ios)
+* [How to connect to a Cisco device](#how-to-connect-to-a-cisco-device)
+* [CLI](#cli)
+* [EXEC Modes](#exec-modes)
+* [Enabling Password](#enabling-password)
+* [running-config / startup-config](#running-config--startup-config)
+* [Saving the configuration](#saving-the-configuration)
+* [Password encryption](#password-encryption)
+
+
+## Cisco IOS
 Operating system used on Cisco devices for configuration.
 
-## How to connect to a Cisco device ?
+## How to connect to a Cisco device
 
 ### Console Port
 

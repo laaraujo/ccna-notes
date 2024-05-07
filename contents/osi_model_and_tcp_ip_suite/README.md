@@ -1,5 +1,12 @@
 # OSI Model and TCP/IP Suite
 
+
+## Table of contents
+* [Networking models](#networking-models)
+* [OSI Model](#osi-model)
+* [TCP/IP](#tcpip)
+
+
 ## Networking models
 Networking models categorize and provide structure for networking protocols and standards.
 
@@ -81,7 +88,7 @@ Open Systems Interconnection model
 ![](docs/pdu.png)
 
 
-## OSI funny acronyms
+### OSI funny acronyms
 ![](docs/osi_acronyms.png)
 
 

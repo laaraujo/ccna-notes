@@ -1,5 +1,15 @@
 # Network Devices
 
+
+## Table of contents
+* [Network](#network)
+* [Server](#server)
+* [Client](#client)
+* [Switches](#switches)
+* [Routers](#routers)
+* [Firewalls](#firewalls)
+
+
 ## Network
 A computer network is a digital telecommunications network which allows nodes to share resources
 

@@ -1,5 +1,16 @@
 # Ethernet LAN Switching
 
+
+## Table of contents
+* [What is a LAN ?](#what-is-a-lan)
+* [Ethernet Frame](#ethernet-frame)
+* [MAC Address](#mac-address)
+* [ARP](#arp)
+* [Ping](#ping)
+* [MAC Address Table](#mac-address-table)
+* [Examples](#examples)
+
+
 ## What is a LAN ?
 A Local Area Network is a network contained within a relatively small area.
 LANs use L2 layer frames.
