@@ -26,8 +26,8 @@ LANs use L2 layer frames.
 
 * `HEADER`
     * 22 bytes
-    * `Preamble`
-    * `SFD` (Start Frame Delimiter): used for syncronization and preparing the device to receive the rest of the data in the frame
+    * `Preamble`: used for syncronization and preparing the device to receive the rest of the data in the frame
+    * `SFD` (Start Frame Delimiter)
     * `Destination`: L2 address to which the frame is being sent
     * `Source`: L2 address of the device that sent the frame
     * `Type` (or Length): indicates the L3 protocol used in the encapsulated `packet` (almsot always IPv4 or IPv6)
