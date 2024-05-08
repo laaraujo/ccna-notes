@@ -10,6 +10,7 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 * [Intro to Cisco IOS CLI](./contents/intro_to_cisco_cli/)
 * [Ethernet LAN Switching](./contents/ethernet_lan_switching/)
 * [IPv4 Addressing](./contents/ipv4_addressing/)
+* [Switch Interfaces](./contents/switch_interfaces/)
 
 
 ## Network node icons
