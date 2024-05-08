@@ -74,6 +74,7 @@ LANs use L2 layer frames.
 * value of `1536 or less` in this field indicates the `TYPE` of the encapsulated packet (usually IPv4 or IPv6), and the length is determined via other methods
 * IPv4 = 0x0800 (Hexadecimal) = `2048` in decimal
 * IPv6 = 0x86DD (Hexadecimal) = `34525` in decimal
+* ARP Packet = 0x0806 (Hexadecimal) = `2054` in decimal
 
 
 ### FCS (Frame Check Sequence)
