@@ -102,6 +102,7 @@ LANs use L2 layer frames.
     * `ARP Reply`
 * `ARP Request` is a `broadcast` ethernet frame (it is sent to all hosts in the network)
 * `ARP Reply` is a `unicast` ethernet frame
+* **broadcast** MAC address used in **ARP Request** is FF.FF.FF.FF.FF.FF
 
 
 ### ARP Table
