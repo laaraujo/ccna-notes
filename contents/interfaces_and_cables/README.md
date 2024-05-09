@@ -5,11 +5,9 @@
 * [Network Protocols](#network-protocols)
 * [Bits and Bytes](#bits-and-bytes)
 * [Ethernet](#ethernet)
-* [Ethernet Cable Standards](#ethernet-cable-standards)
-* [UTP Cables](#utp-cables)
+* [Cable Standards](#cable-standards)
 * [Copper UTP Cables](#copper-utp-cables)
 * [Fiber-optic UTP Cables](#fiber-optic-utp-cables)
-* [Fiber-optic Cable standards](#fiber-optic-cable-standards)
 * [UTP vs Fiber-optic Cabling](#utp-vs-fiber-optic-cabling)
 
 ## Network Protocols
@@ -18,26 +16,27 @@ Agreed upon system of communicating between network devices.
 
 ## Bits and Bytes
 
-* `Bit` = `0` or `1`
-* `Byte` = `8 bits`
+* Bit = `0` or `1`
+* Byte = 8 bits
 
 ### Speed
 
-![](docs/bits_n_bytes.png)
+![Speed is measured in bits per second](docs/bits_n_bytes.png)
 
 ## Ethernet
 
-Collection of network protocols/standards that fit in RJ-45 ports (`RJ` = "Registered Jack")
+Collection of network protocols/standards that fit in RJ-45 ports (**RJ** = *"Registered Jack"*)
 
-## Ethernet Cable Standards
+## Cable Standards
 
 * defined in the IEEE 802.3 standard in 1983
-* IEEE = Institute of Electrical and Electronics Engineers
+* **IEEE** = Institute of Electrical and Electronics Engineers
 
 ![](docs/copper_ethernet_standards.png)
-Where `BASE` refers to baseband signaling (outside of CCNA scope) and `T` refers to `twisted pair`
 
-## UTP Cables
+* **"BASE"** refers to baseband signaling (outside of CCNA scope) and **"T"** refers to *"twisted pair"*
+
+## Copper UTP Cables
 
 Type of copper **cables** used in ethernet standards.
 
@@ -46,9 +45,7 @@ Type of copper **cables** used in ethernet standards.
 * `8 pins`, perfect for the number of wires
 * **Not all ethernet cables use all 8 wires**
 
-![](docs/utp_cables_used_wires.png)
-
-## Copper UTP Cables
+    ![](docs/utp_cables_used_wires.png)
 
 ### 10BASE-T and 100BASE-T
 
@@ -138,7 +135,7 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 
 ![](docs/multimode_fiber.png)
 
-## Fiber-optic Cable standards
+### Fiber-optic Cable standards
 
 ![](docs/fiber_optic_standards.png)
 
@@ -147,7 +144,7 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 | UTP | Fiber-optic |
 | --- | --- |
 | Cheaper | More expensive |
-| Shorter max distance (~100m) | longer max distance |
+| Shorter max distance (~100m) | Longer max distance |
 | Vulnerable to EMI | EMI proof |
 | RJ45 ports are cheaper than SFP ports | SFP ports are more expensive (and single-mode ir more expensive than multimode) |
 | Leak faint signal outside of cable (security risk) | No signal leak |

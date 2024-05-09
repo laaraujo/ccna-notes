@@ -11,7 +11,7 @@
 
 ## Network
 
-A computer network is a digital telecommunications network which allows nodes to share resources
+A computer network is a digital telecommunications network which allows *nodes* to share resources
 
 ## Server
 
@@ -19,11 +19,11 @@ Device that provides functions or services for clients
 
 ## Client
 
-Device that accesses a service made availably by a server
+Device that accesses a service made available by a server
 
-![](docs/client_sv_1.png)
+![PCs as Client and Server](docs/client_sv_1.png)
 
-![](docs/client_sv_2.png)
+![Your PC (client) requestiong a video from Youtube's server](docs/client_sv_2.png)
 
 ## Switches
 
@@ -47,13 +47,13 @@ There are potential "attackers" in the internet.
 Although router can provide some basic security features, what we should use to protect our networks are firewalls.
 
 * monitor and control network traffic based on configured rules
-* can be placed **outside** of your LAN (filter traffic before reaching the router)
-* can be placed **inside** of your LAN (filter traffic after going through the router)
-* are considered "Next-Gen" when they include more modern and advanced filtering capabilities.
+* can be placed **outside** of your LAN (filter traffic *before* reaching the router)
+* can be placed **inside** of your LAN (filter traffic *after* going through the router)
+* are considered *"Next-Gen"* when they include more modern and advanced filtering capabilities
+
+![Firewalls outside (FW1) and inside (FW2) LANs](docs/switches_routers_and_firewalls.png)
 
 ### Host-based firewalls
 
 These are software applications that filter traffic entering and exiting a host machine (like a PC).
-Even in a network with a hardware firewall each PC should include a software firewall for an extra protection layer
-
-![](docs/switches_routers_and_firewalls.png)
+Even in a network with a hardware firewall each PC should include a software firewall for an extra protection layer.
