@@ -24,6 +24,22 @@ The following are the icons use in some diagrams from [Jeremy's IT Lab](https://
 
 * CCNA Course from [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
+## Contributing
+
+```bash
+# Clone this repo - https://github.com/laaraujo/ccna-notes
+git clone git@github.com:laaraujo/ccna-notes.git
+
+# Install pre-commit - https://pre-commit.com/
+pip install pre-commit
+
+# Install markdownlint-cli - https://github.com/igorshubovych/markdownlint-cli
+npm install -g markdownlint-cli
+
+# Setup pre-commit hooks
+pre-commit install
+```
+
 ## This repo
 
 [laaraujo/ccna-notes](https://github.com/laaraujo/ccna-notes)
