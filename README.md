@@ -25,4 +25,5 @@ The following are the icons use in some diagrams from [Jeremy's IT Lab](https://
 * CCNA Course from [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
 ## This repo
+
 [laaraujo/ccna-notes](https://github.com/laaraujo/ccna-notes)
