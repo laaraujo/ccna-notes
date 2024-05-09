@@ -3,6 +3,7 @@
 ![](docs/ipv4_header.png)
 
 ## Fields
+
 * [Version](#version)
 * [IHL](#ihl)
 * [DSCP](#dscp)
@@ -35,6 +36,7 @@ Internet Header Length
 * `5 <= IHL <= 15`
 
 ## DSCP
+
 Differentiated Services Codepoint
 
 * `6 bits`
@@ -106,7 +108,7 @@ Explicit Congestion Notification
 * `16 bits`
 * calculated checksum used to check for errors in the IPv4 header
 * router receives the packet, calculates the checksum and compares it to the one in this field.
-* if they do not match the router drops the package 
+* if they do not match the router drops the package
 
 ## Source and Destination IP Addresses
 

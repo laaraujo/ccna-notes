@@ -52,10 +52,10 @@ For security concerns we should disable the unused interfaces
 * `description <description>` to change the `name` field (description)
 * `shutdown` to disable interfaces
 
-
 ## Full/Half Duplex
 
 ### Half Duplex
+
 The device cannot send and receive data at the same time. If it is receiving a frame, it must want before sending a frame.
 
 Half Duplex is pretty much unused in modern networks
@@ -75,7 +75,6 @@ In the past, **before network switches, HUBS were used**. Hubs acted as a repeat
 
 * **All devices connected to a Hub are part of something called a Collision Domain**
 ![](docs/hubs_4.png)
-
 
 ### Full Duplex
 
@@ -100,13 +99,14 @@ It stands for **Carrier Sense Multiple Access with Collision Detection** 🔥
 * interfaces that run on different speeds (10/100 or 10/100/1000) have default settings of **speed auto** and **duplex auto**
 * interfaces "*advertise*" their capabilities to the neighboring device, and they negotiate the best **speed** *and* **duplex** settings they are both capable of.
 
-
 ![](docs/autonegotiation_1.png)
+
 * E = 10 Mbps
 * F = 10/100 Mbps
 * G = 10/100/1000 Mbps
 
 ![](docs/autonegotiation_2.png)
+
 * **G0/1** will negotiate to a speed of **10 Mbps** and **full duplex**
 * **G0/2** will negotiate to a speed of **100 Mbps** and **full duplex**
 * **G0/3** will negotiate to a speed of **1000 Mbps** and **full duplex**

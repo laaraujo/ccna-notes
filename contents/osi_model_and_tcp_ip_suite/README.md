@@ -1,17 +1,17 @@
 # OSI Model and TCP/IP Suite
 
-
 ## Table of contents
+
 * [Networking models](#networking-models)
 * [OSI Model](#osi-model)
 * [TCP/IP](#tcpip)
 
-
 ## Networking models
+
 Networking models categorize and provide structure for networking protocols and standards.
 
-
 ## OSI Model
+
 Open Systems Interconnection model
 
 * categorizes and standardizes the different functions in a network
@@ -20,7 +20,6 @@ Open Systems Interconnection model
 * These layers work together to make the network work
 
 ![](docs/osi_model.png)
-
 
 ### 7 - Application
 
@@ -31,18 +30,15 @@ Open Systems Interconnection model
 * identifies communication partners
 * synchronizes communication
 
-
 ### 6 - Presentation
 
 * translate between application and network formats
 * handles encryption and decryption
 
-
 ### 5 - Session
 
 * controls dialogues (sessions) between comunication hosts
 * establishes, manages and terminates connections between local and remote app
-
 
 ### 4 - Transport
 
@@ -53,7 +49,6 @@ Open Systems Interconnection model
 
 ![](docs/osi_l4_segment.png)
 
-
 ### 3 - Network
 
 * provides connectivity between end hosts on different networks
@@ -63,7 +58,6 @@ Open Systems Interconnection model
 * **adds a L3 header to the segment from L4** forming a **`packet`** 🔥
 
 ![](docs/osi_l3_packet.png)
-
 
 ### 2 - Data Link
 
@@ -76,21 +70,19 @@ Open Systems Interconnection model
 
 ![](docs/osi_l2_frame.png)
 
-
 ### 1 - Physical
 
 * defines physical characteristics of the medium used to transfer data between devices (i.e. voltage levels, max tx distances, physical connectors, cable specs, etc)
 * digital bits are converted into electrical or radio signals (wired and wireless connections respectively)
 * [interfaces and cables](../interfaces_and_cables/) section of this repo is related to this layer
 
-
 ### PDUs (Protocol Data Units)
+
 ![](docs/pdu.png)
 
-
 ### OSI funny acronyms
-![](docs/osi_acronyms.png)
 
+![](docs/osi_acronyms.png)
 
 ## TCP/IP
 

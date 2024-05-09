@@ -1,8 +1,8 @@
 # Ethernet LAN Switching
 
-
 ## Table of contents
-* [What is a LAN ?](#what-is-a-lan)
+
+* [What is a LAN ?](#what-is-a-lan-)
 * [Ethernet Frame](#ethernet-frame)
 * [MAC Address](#mac-address)
 * [ARP](#arp)
@@ -10,19 +10,18 @@
 * [MAC Address Table](#mac-address-table)
 * [Examples](#examples)
 
-
 ## What is a LAN ?
+
 A Local Area Network is a network contained within a relatively small area.
 LANs use L2 layer frames.
 
 ![](docs/some_LANs.png)
 
-
 ## Ethernet Frame
 
 ![A complete ethernet frame structure](docs/ethernet_frame.png)
 
-* 26 bytes 	🔥
+* 26 bytes  🔥
 
 * `HEADER`
     * 22 bytes
@@ -35,7 +34,7 @@ LANs use L2 layer frames.
 * `TRAILER`
     * 4 bytes
     * `FCS` (Frame Check Sequence): used by the receiving device to detect any errors that may have occurred in transmission
-    
+
 ![Preamble + SFD are usually not considered part of the ethernet header](docs/ethernet_frame_without_preamble_n_sfd.png)
 
 * 18 bytes without Preamble + SFD 🔥🔥🔥
@@ -44,13 +43,11 @@ LANs use L2 layer frames.
 * 64 bytes - 18 bytes (header + trailer) = 46 bytes for the **packet** (minimum)
 * if payload is less than 46 bytes, padding bytes are added
 
-
 ### Preamble
 
 * 7 bytes (8 bits * 7 = 56 bits)
 * 10101010 * 7
 * Allows deviced to sync their receiver clocks
-
 
 ### SDF (Start Frame Delimiter)
 
@@ -58,14 +55,12 @@ LANs use L2 layer frames.
 * 10101011
 * Marks the end of the preable, and the beginning of the rest of the frame
 
-
 ### Destination and Source
 
 * 6 bytes each (8 bits * 6 = 48 bit) address of physical device
 * indicate the devices sending and receiving the frame
 * consist of destination and source `MAC address`
 * `MAC` = Media Access Control
-
 
 ### Type / Length
 
@@ -76,13 +71,11 @@ LANs use L2 layer frames.
 * IPv6 = 0x86DD (Hexadecimal) = `34525` in decimal
 * ARP Packet = 0x0806 (Hexadecimal) = `2054` in decimal
 
-
 ### FCS (Frame Check Sequence)
 
 * 4 bytes (32 bits) in length
 * detects corrupted data by running a *"CRC"* algorithm over the receiving data
 * `CRC`: "Cyclic Redundancy Check"
-
 
 ## MAC Address
 
@@ -92,7 +85,6 @@ LANs use L2 layer frames.
 * First 3 bytes are OUI (Organizationally Unique Identifier), which is assigned to the company making the device 🔥
 * Last 3 bytes are unique to the device itself 🔥
 * Written as 12 **hexadecimal** characters
-
 
 ## ARP
 
@@ -105,7 +97,6 @@ LANs use L2 layer frames.
 * `ARP Reply` is a `unicast` ethernet frame
 * **broadcast** MAC address used in **ARP Request** is FF.FF.FF.FF.FF.FF
 
-
 ### ARP Table
 
 Use `arp -a` to view the ARP table and show all ARP entries
@@ -114,7 +105,6 @@ Use `arp -a` to view the ARP table and show all ARP entries
 
 * `type static`: default entries
 * `type dynamic`: learned via ARP
-
 
 ## Ping
 
@@ -131,11 +121,9 @@ In the above example the first of the 5 requests sent failed because of ARP.
 
 ![](docs/wireshark_ping.png)
 
-
 ### Cisco IOS ARP
 
 ![](docs/ios_show_arp.png)
-
 
 ## MAC Address Table
 
@@ -150,7 +138,6 @@ To manually **clear** the MAC Address table in CISCO devices use:
 `clear mac address-table dynamic interface <interface name>`
 
 ![](docs/clear_mac_address.png)
-
 
 ## Examples
 
@@ -173,7 +160,6 @@ We will have `PC1` send data to `PC2` in the same LAN where the Switch has an em
 * `unicast frame`: frame destined for a single target
 * `unknown unicast frame`: frame for which the switch doesn't have an entry in its MAC Address Table. In this case the frame is `FLOODED` (forwarded to all of its interfaces except the one it received the packet on)
 * `known unicast frame`: frame for which destination is already "known" in the switches MAC Address Table. In this case the frame is `FORWARDED` to the specified destination.
-
 
 ### Example 2
 
@@ -203,10 +189,10 @@ We will have `PC1` send data to `PC2` in the same LAN where the Switch has an em
 8. `SW1` already associated `PC1` Mac Address to `F0/1` interface so it will `FORWARD` the frame to `PC1` directly
 ![](docs/example_2/8.png)
 
-
 ### Example 3 🔥
 
 `PC1` wants to send data to `PC3` where:
+
 * `PC1` doesn't know `PC3` MAC Address
 * `PC1` knows `PC3` IP address
 
@@ -216,7 +202,7 @@ We will have `PC1` send data to `PC2` in the same LAN where the Switch has an em
 2. `SW1` adds `PC1` to its MAC Address table and `FLOODS` the request
 ![](docs/example_3/2.png)
 
-3. `PC2` ignores the request because Destination IP doesn't match 
+3. `PC2` ignores the request because Destination IP doesn't match
 ![](docs/example_3/3.png)
 
 4. `SW2` adds `PC1` to its MAC Address table and `FLOODS` the request

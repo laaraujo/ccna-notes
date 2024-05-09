@@ -1,7 +1,7 @@
 # Intro to Cisco CLI
 
-
 ## Table of contents
+
 * [Cisco IOS](#cisco-ios)
 * [How to connect to a Cisco device](#how-to-connect-to-a-cisco-device)
 * [CLI](#cli)
@@ -11,8 +11,8 @@
 * [Saving the configuration](#saving-the-configuration)
 * [Password encryption](#password-encryption)
 
-
 ## Cisco IOS
+
 Operating system used on Cisco devices for configuration.
 
 ## How to connect to a Cisco device
@@ -29,7 +29,8 @@ This typically implies taking your laptop to the device and connecting to the `c
 ![Rollover Cable with DV9 - RJ45 ends](docs/rollover_cable.png)
 
 #### Rollover cable PIN connections
-```
+
+```log
 1 --- 8
 2 --- 7
 3 --- 6
@@ -62,7 +63,6 @@ where:
 * for each 8 `Data bits` of data 1 `Stop bit` is sent
 * `Parity`: used to detect errors
 * `Flow control`: controls the flow of data from transmitter to receiver
-
 
 ![Putty connection config and default settings](docs/putty_default_config.png)
 
@@ -141,12 +141,14 @@ DRAM configuration is 64 bits wide with parity disabled.
 
 Press RETURN to get started!
 ```
+
 </details>
 
 ## CLI
 
 As shown in the following example, there is an `autocomplete` feature
-```
+
+```log
 Router>e
 % Ambiguous command: "e"
 
@@ -157,9 +159,9 @@ Router>en
 Router#
 ```
 
-To see how a command is used, you can add a ` ?` at the end (notice the space before the question mark)
+To see how a command is used, you can add a `?` at the end (notice the space before the question mark)
 
-```logs
+```log
 Router(config)#enable password?
 password  
 Router(config)#enable password ?
@@ -170,6 +172,7 @@ Router(config)#
 ```
 
 `<cr>` (carriage return) will be displayed when the only option is to press ENTER
+
 ```log
 Router(config)#enable password TEST ?
   <cr>
@@ -186,6 +189,7 @@ Router(config)#
 * also called `user mode`
 
 #### Available commands
+
 ```log
 Router>?
 Exec commands:
@@ -206,7 +210,7 @@ Exec commands:
 Router>
 ```
 
-### Privileged EXEC Mode    
+### Privileged EXEC Mode
 
 If you enter the `enable` command in user mode you will be placed in `Privileged EXEC Mode`
 
@@ -219,6 +223,7 @@ Router#
 * **cannot change config**, only time on the device, save the config file, etc 🔥
 
 #### Available commands
+
 ```log
 Router#?
 Exec commands:
@@ -277,7 +282,6 @@ Password:
 Router#
 ```
 
-
 ## running-config / startup-config
 
 * There are the two config files kept on the device at any given time
@@ -285,6 +289,7 @@ Router#
 * `startup-config`: config file that will be loaded upon restart of the device
 
 ### `show running-config`
+
 ```log
 Router#show running-config
 Building configuration...
@@ -314,6 +319,7 @@ Router#
 ```
 
 ### `show startup-config`
+
 ```log
 Router#show startup-config
 Using 694 bytes
@@ -356,7 +362,8 @@ There are 3 ways to save the configuration
     ```
 
 * `write memory`
-    ```
+
+    ```log
     Router#write memory
     Building configuration...
     [OK]
@@ -364,7 +371,8 @@ There are 3 ways to save the configuration
     ```
 
 * `copy running-config startup-config`
-    ```
+
+    ```log
     Router#copy running-config startup-config
     Destination filename [startup-config]? 
     Building configuration...
@@ -388,14 +396,16 @@ Router(config)#
 ```
 
 * `show running-config` **BEFORE** `service password-encryption`:
-    ```
+
+    ```log
     ...
     enable password TEST
     ...
     ```
 
 * `show running-config` **AFTER** `service password-encryption`:
-    ```
+
+    ```log
     ...
     enable password 7 0815697D3D
     ...

@@ -1,7 +1,7 @@
 # Interfaces and Cables
 
-
 ## Table of contents
+
 * [Network Protocols](#network-protocols)
 * [Bits and Bytes](#bits-and-bytes)
 * [Ethernet](#ethernet)
@@ -11,7 +11,6 @@
 * [Fiber-optic UTP Cables](#fiber-optic-utp-cables)
 * [Fiber-optic Cable standards](#fiber-optic-cable-standards)
 * [UTP vs Fiber-optic Cabling](#utp-vs-fiber-optic-cabling)
-
 
 ## Network Protocols
 
@@ -59,7 +58,7 @@ Type of copper **cables** used in ethernet standards.
 
 #### Straight-through cable connections
 
-```
+```log
 1 --- 1
 2 --- 2
 
@@ -71,7 +70,7 @@ Type of copper **cables** used in ethernet standards.
 
 #### Crossover cable connections
 
-```
+```log
 1 --- 3
 2 --- 6
 
@@ -82,16 +81,16 @@ Type of copper **cables** used in ethernet standards.
 ![](docs/crossover_router_and_router.png)
 
 #### **Auto MDI-X** 🔥
+
 Truth is that most modern network devices don't need to worry about straight-through or crossover cables because of Auto MDI-X.
 
 It allows deviced to automatically detect which pins their neighbor is transmiting data on, and then adjust which pins to use to transmit/receive data.
-
 
 ### 1000BASE-T and 10GBASE-T
 
 In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This is part of the reason why they can operate at much faster speeds.
 
-```
+```log
 1 --- 1
 2 --- 2
 
@@ -114,6 +113,7 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 ![](docs/fiber_cable.png)
 
 ![](docs/fiber_optic_layers.png)
+
 * `1` : Fiber glass core, where light is transmitted
 * `2` : Cladding that reflects light
 * `3` : Protective buffer
@@ -139,8 +139,8 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 ![](docs/multimode_fiber.png)
 
 ## Fiber-optic Cable standards
-![](docs/fiber_optic_standards.png)
 
+![](docs/fiber_optic_standards.png)
 
 ## UTP vs Fiber-optic Cabling
 
@@ -151,4 +151,3 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 | Vulnerable to EMI | EMI proof |
 | RJ45 ports are cheaper than SFP ports | SFP ports are more expensive (and single-mode ir more expensive than multimode) |
 | Leak faint signal outside of cable (security risk) | No signal leak |
-

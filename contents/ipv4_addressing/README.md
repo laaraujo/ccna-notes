@@ -1,12 +1,11 @@
 # IPv4 Addressing
 
-
 ## Table of contents
+
 * [IPv4 Address](#ipv4-address)
 * [Decimal and Binary](#decimal-and-binary)
 * [IPv4 Address Classes](#ipv4-address-classes)
 * [IPv4 Address Configuration](#ipv4-address-configuration)
-
 
 ## IPv4 Address
 
@@ -16,23 +15,19 @@
 * **CIDR notation**: `/24` after the IP number indicates `24` out of the `32` bits in an IP address correspond to the network portion. Possible values are `1 > n > 32` where `n` is an integer. 🔥🔥🔥
     * i.e `192.168.1.0/24`
 
-
 ## Decimal and Binary
 
 ![Min/Max binary octet](docs/min_max_octet_1.png)
 
 ![](docs/min_max_octet_2.png)
 
-
 ### Binary to Decimal
 
 ![](docs/binary_to_decimal.png)
 
-
 ### Decimal to Binary
 
 ![](docs/decimal_to_binary.png)
-
 
 ## IPv4 Address Classes
 
@@ -58,7 +53,6 @@
 
 ![](docs/ipv4_address_classes.png)
 
-
 ### Netmask
 
 | Class | Prefix Length | Netmask | Binary octets |
@@ -67,12 +61,10 @@
 | **B** | /16 | 255.255.0.0 | 11111111 11111111 00000000 00000000 |
 | **C** | /24 | 255.255.255.0 | 11111111 11111111 11111111 00000000 |
 
-
 ### Maximum hosts per network
 
 **`2^n - 2`** 🔥
 > where `n` = number of host bits
-
 
 #### /24 (Class C)
 
@@ -84,7 +76,6 @@
 * **BUT** `192.168.1.0` is the network address (network id) and `192.168.1.255` is the *broadcast address*
 * Therefore max number of hosts is 2^**8** - 2 = 254 🔥
 
-
 #### /16 (Class B)
 
 `172.16.0.0/16` --- `172.16.255.255/16`
@@ -94,7 +85,6 @@
 * Therefore *16 bits* -> 2^**16** = 65536
 * **BUT** `172.16.0.0` is the network address (network id) and `172.16.255.255` is the *broadcast address*
 * Therefore max number of hosts is 2^**16** - 2 = 65534 🔥
-
 
 #### /8 (Class A)
 
@@ -106,7 +96,6 @@
 * **BUT** `10.0.0.0` is the network address (network id) and `10.255.255.255` is the *broadcast address*
 * Therefore max number of hosts is 2^**24** - 2 = 16777214 🔥
 
-
 ### Network address
 
 `192.168.1.0/24`
@@ -114,7 +103,6 @@
 * `/24` means `192.168.1` is the network portion and `.0` is the host portion
 * Since the **host portion** is `0` it means it is the network address
 * it is the first address with a **host portion** of all `0`s
-
 
 ### Broadcast address
 
@@ -124,12 +112,10 @@
 * with `/24` net mask it would be the last octet `.255`
 * cannot be assigned to a host
 
-
 ## IPv4 Address Configuration
 
 Consider the following network where the router interfaces are yet to be configured:
 ![Screenshot from Packet Tracer showing 3 LANs connected to R1 router](docs/ipv4_address_config.png)
-
 
 ### Show interfaces status and configured IP addresses
 
@@ -154,7 +140,6 @@ Router#
 * `Protocol`: **L2 Status of the interface** 🔥
     * Because the interfaces are `DOWN` at **L1**, **L2** can't operate 🔥
 
-
 ### Configure interface IP
 
 ```log
@@ -178,8 +163,8 @@ Router(config-if)#
 * `%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up` indicates the physical layer status of the interface (`Status` column)
 * `%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up` indicates the L2 status of the interface (`Protocol` column)
 
-
 We'll do the same for the other 2 interfaces
+
 ```log
 Router(config-if)#interface gigabitEthernet 0/1
 Router(config-if)#ip address 182.98.255.254 255.255.0.0
@@ -204,6 +189,7 @@ Router(config-if)#
 ```
 
 Now we can verify our interfaces are configured and working as expected
+
 ```log
 Router(config-if)#do show ip interface brief
 Interface              IP-Address      OK? Method Status                Protocol 
