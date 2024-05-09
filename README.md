@@ -11,6 +11,8 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 * [Ethernet LAN Switching](./contents/ethernet_lan_switching/)
 * [IPv4 Addressing](./contents/ipv4_addressing/)
 * [Switch Interfaces](./contents/switch_interfaces/)
+* Routing
+    * [IPv4 Header](./contents/ipv4_header/)
 
 
 ## Network node icons
