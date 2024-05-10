@@ -16,7 +16,7 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 
 ## Network node icons
 
-The following are the icons use in some diagrams from [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ) I used in this repo:
+The following are the icons used in most of the diagrams for this repo:
 
 ![Icon used in various diagrams and examples](/docs/node_icons.png)
 
