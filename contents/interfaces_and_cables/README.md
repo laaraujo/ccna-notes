@@ -21,20 +21,18 @@ Agreed upon system of communicating between network devices.
 
 ### Speed
 
-![Speed is measured in bits per second](docs/bits_n_bytes.png)
+![Speed is measured in bits per second](docs/bit_speeds.png)
 
 ## Ethernet
 
-Collection of network protocols/standards that fit in RJ-45 ports (**RJ** = *"Registered Jack"*)
+Collection of network protocols/standards that fit in RJ-45 ports.
+
+* **RJ = "Registered Jack"**
 
 ## Cable Standards
 
 * defined in the IEEE 802.3 standard in 1983
 * **IEEE** = Institute of Electrical and Electronics Engineers
-
-![](docs/copper_ethernet_standards.png)
-
-* **"BASE"** refers to baseband signaling (outside of CCNA scope) and **"T"** refers to *"twisted pair"*
 
 ## Copper UTP Cables
 
@@ -46,6 +44,12 @@ Type of copper **cables** used in ethernet standards.
 * **Not all ethernet cables use all 8 wires**
 
     ![](docs/utp_cables_used_wires.png)
+
+### Copper cable standards
+
+![Copper ethernet cable standards](docs/copper_ethernet_standards.png)
+
+* **"BASE"** refers to baseband signaling (outside of CCNA scope) and **"T"** refers to *"twisted pair"*
 
 ### 10BASE-T and 100BASE-T
 
@@ -101,6 +105,8 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 8 --- 8
 ```
 
+![Bi-directional pairs for 1000BASE-T and 10GBASE-T Cables](docs/bidirectional_1000_10g_baset.png)
+
 ## Fiber-optic UTP Cables
 
 ![](docs/sfp_transceiver.png)
@@ -142,7 +148,7 @@ In addition to using **ALL** pairs of wires, each pair is `BI-DIRECTIONAL`. This
 ## UTP vs Fiber-optic Cabling
 
 | UTP | Fiber-optic |
-| --- | --- |
+| :-: | :-: |
 | Cheaper | More expensive |
 | Shorter max distance (~100m) | Longer max distance |
 | Vulnerable to EMI | EMI proof |
