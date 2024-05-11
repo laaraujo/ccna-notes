@@ -18,7 +18,13 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 
 The following are the icons used in most of the diagrams for this repo:
 
-![Icon used in various diagrams and examples](/docs/node_icons.png)
+![Icon used in various diagrams and examples](./docs/node_icons.png)
+
+## CLI cheat sheet
+
+The following is a compilation of all the CLI commands used throught these notes:
+
+[Cisco IOS CLI cheat sheet](./cheat_sheet/README.md)
 
 ## Sources
 
