@@ -1,18 +1,18 @@
 # Cisco IOS CLI cheat sheet
 
-## Contexts
+## Modes
 
-| Context          | Description |
+| Mode           | Description |
 | --- | --- |
-| **>**            | User EXEC mode |
-| **#**            | Privileged EXEC mode |
-| **(config)#**    | Global configuration mode |
-| **(config-if)#** | Interface configuration mode |
+| `>`            | User EXEC mode |
+| `#`            | Privileged EXEC mode |
+| `(config)#`    | Global configuration mode |
+| `(config-if)#` | Interface configuration mode |
 
 ## Basics
 
-| Context   | Command                              | Description |
-| --- | --- | --- |
+| Mode      | Command                              | Description |
+| :-: | --- | --- |
 | >         | `enable`                             | Change to Privileged EXEC mode |
 | #         | `configure terminal`                 | Enter Privilleged EXEC mode |
 | (config)# | `interface <interface_name>`         | Enter <interface_name> config mode |
@@ -25,7 +25,7 @@
 
 ## Passwords
 
-| Context   | Command                       | Description |
+| Mode      | Command                       | Description |
 | --- | --- | --- |
 | (config)# | `enable password <password>`  | Set plain text password |
 | (config)# | `service password-encryption` | Use Cisco's Type 7 encoding |
