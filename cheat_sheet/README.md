@@ -3,7 +3,7 @@
 ## Modes
 
 | Mode           | Description |
-| ---            | --- |
+| :-:            | --- |
 | `>`            | User EXEC mode |
 | `#`            | Privileged EXEC mode |
 | `(config)#`    | Global configuration mode |
@@ -12,7 +12,7 @@
 ## Passwords
 
 | Mode      | Command                       | Description |
-| ---       | ---                           | --- |
+| :-:       | ---                           | --- |
 | (config)# | `enable password <password>`  | Set plain text password to <password> |
 | (config)# | `service password-encryption` | Use Cisco's Type 7 encoding |
 | (config)# | `enable secret <password>`    | Set MD5 hashed password to <password> and disable old passwords |
@@ -20,7 +20,7 @@
 ## Basics
 
 | Mode        | Command                                              | Description |
-| ---         | ---                                                  | --- |
+| :-:         | ---                                                  | --- |
 | >           | `enable`                                             | Change to Privileged EXEC mode |
 |             | `exit`                                               | Exit current mode |
 |             | `no <command>`                                       | Disable a feature/function or reverse the action of <command> |
