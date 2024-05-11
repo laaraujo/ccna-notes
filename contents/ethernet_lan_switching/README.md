@@ -99,12 +99,20 @@ LANs use L2 layer frames.
 
 ### ARP Table
 
-Use `arp -a` to view the ARP table and show all ARP entries
-
-![](docs/arp_table.png.png)
-
 * `type static`: default entries
 * `type dynamic`: learned via ARP
+
+#### Windows / MacOS / Linux
+
+`arp -a` to view the ARP table and show all ARP entries
+
+![](docs/arp_table.png)
+
+#### Cisco IOS
+
+`show arp` to view the ARP table and show all ARP entries
+
+![](docs/ios_show_arp.png)
 
 ## Ping
 
@@ -120,10 +128,6 @@ Use `arp -a` to view the ARP table and show all ARP entries
 In the above example the first of the 5 requests sent failed because of ARP.
 
 ![](docs/wireshark_ping.png)
-
-### Cisco IOS ARP
-
-![](docs/ios_show_arp.png)
 
 ## MAC Address Table
 
