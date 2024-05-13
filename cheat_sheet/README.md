@@ -38,7 +38,8 @@
 | #            | `show arp`                                             | View the ARP table and show all ARP entries |
 | #            | `show ip interface brief`                              | Show interfaces status and configured IP addresses |
 | #            | `show interfaces status`                               | Show L2 nad L3 info about the interfaces and their status |
-| #            | `show interfaces <interface>`                          | Show all available info about <interface> interface  |
+| #            | `show interfaces <interface>`                          | Show all available info about <interface> interface |
+| #            | `show ip route`                                        | View routing rable |
 | (config)#    | `shutdown`                                             | Disable interface |
 | (config)#    | `clear mac address-table`                              | Manually clear the MAC address table |
 | (config)#    | `clear mac address-table dynamic <interface>`          | Clear MAC address table entry for <interface> interface |
