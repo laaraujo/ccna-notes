@@ -14,6 +14,7 @@ Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/traini
 * Routing
     * [IPv4 Header](./contents/ipv4_header/)
     * [Fundamentals](./contents/routing_fundamentals/)
+    * [Static Routing](./contents/static_routing/)
 
 ## Network node icons
 
