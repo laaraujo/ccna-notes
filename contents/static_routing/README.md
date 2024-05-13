@@ -26,6 +26,7 @@ Lets look at the following example where PC1 wants to send something to PC4
 2. R1 de-encapsulates the frame (look at the packet)
 3. R1 will check the routing table for the most-specific matching route
     * The following is R1s routing table atm:
+
     ![Routing table only has the default routes so far](docs/default_routes.png)
 4. R1 has no matching routes in its routing table so it will **drop the packge**
 
