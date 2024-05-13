@@ -4,6 +4,13 @@ Routing is the process that routesrs use to determine the path that IP packets s
 Routers store routes to all of their known destinations in a routing table.
 When routers receibe packets, they look in the routing table to find the best route to forward that packet.
 
+## Table of contents
+
+[Routing Methods](#routing-methods)
+[Route](#routes)
+[Routing Tables](#routing-tables)
+[Route Selection](#route-selection)
+
 ## Routing Methods
 
 There are two main routing methods:
@@ -12,7 +19,7 @@ There are two main routing methods:
 
 * **Static Routing**: a network engineer/admin manually configures routes on the router
 
-## Route
+## Routes
 
 A route tells the router to:
 
