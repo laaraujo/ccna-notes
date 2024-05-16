@@ -6,10 +6,10 @@ When routers receibe packets, they look in the routing table to find the best ro
 
 ## Table of contents
 
-[Routing Methods](#routing-methods)
-[Route](#routes)
-[Routing Tables](#routing-tables)
-[Route Selection](#route-selection)
+* [Routing Methods](#routing-methods)
+* [Route](#routes)
+* [Routing Tables](#routing-tables)
+* [Route Selection](#route-selection)
 
 ## Routing Methods
 
