@@ -1,6 +1,7 @@
 # CCNA 200-301 Notes
 
 Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) topics.
+Originally intended to be Networking in general **but** since the CCNA certification is widely accepted as the go-to for Networking fundamentels I decided to stick to its program.
 
 ## Contents
 
