@@ -1,20 +1,21 @@
 # CCNA 200-301 Notes
 
 Personal notes for learning [CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) topics.
-Originally intended to be Networking in general **but** since the CCNA certification is widely accepted as the go-to for Networking fundamentels I decided to stick to its program.
+Originally intended to be Networking in general **but** since the CCNA certification is widely accepted as the go-to for Networking fundamentals I decided to stick to its program.
 
 ## Contents
 
-* [Network Devices](./contents/network_devices/)
-* [Interfaces and Cables](./contents/interfaces_and_cables/)
-* [OSI model and TCP/IP suite](./contents/osi_model_and_tcp_ip_suite/)
-* [Intro to Cisco IOS CLI](./contents/intro_to_cisco_cli/)
-* [Ethernet LAN Switching](./contents/ethernet_lan_switching/)
-* [IPv4 Addressing](./contents/ipv4_addressing/)
-* [Switch Interfaces](./contents/switch_interfaces/)
-* [IPv4 Header](./contents/ipv4_header/)
-* [Routing Fundamentals](./contents/routing_fundamentals/)
-* [Static Routing](./contents/static_routing/)
+- [Network Devices](./contents/network_devices/)
+- [Interfaces and Cables](./contents/interfaces_and_cables/)
+- [OSI model and TCP/IP suite](./contents/osi_model_and_tcp_ip_suite/)
+- [Intro to Cisco IOS CLI](./contents/intro_to_cisco_cli/)
+- [Ethernet LAN Switching](./contents/ethernet_lan_switching/)
+- [IPv4 Addressing](./contents/ipv4_addressing/)
+- [Switch Interfaces](./contents/switch_interfaces/)
+- [IPv4 Header](./contents/ipv4_header/)
+- [Routing Fundamentals](./contents/routing_fundamentals/)
+- [Static Routing](./contents/static_routing/)
+- [Life of a Packet](./contents/life_of_a_packet/)
 
 ## Network node icons
 
@@ -30,7 +31,7 @@ The following is a compilation of all the CLI commands used throught these notes
 
 ## Sources
 
-* CCNA Course from [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
+- CCNA Course from [Jeremy's IT Lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
 ## Contributing
 
